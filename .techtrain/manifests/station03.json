@@ -1,0 +1,16 @@
+{
+  "name": "Station 03",
+  "id": 3,
+  "prepare": [
+    {
+      "command": "yarn lite-server",
+      "background": true
+    }
+  ],
+  "tests": [
+    {
+      "type": "cypress",
+      "specFile": "./cypress/integration/station3.spec.ts"
+    }
+  ]
+}
